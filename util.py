@@ -1,6 +1,7 @@
 from tqdm.auto import tqdm
 from jax import lax
 import jax.numpy as jnp
+from jax import random
 import numpy as np
 import struct
 from jax.experimental import host_callback
